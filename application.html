@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+{
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  height:30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-section">
+      <div class="website-title">
+      <img src="banner.png" width="495" height="164" alt=""/>
+      </div>
+		<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="trainee.html">Existing Trainee</a></li>
+  <li><a href="application.html">Application</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Opportunity</a>
+    <div class="dropdown-content">
+      <a href="courses.html">Web Courses</a>
+      <a href="specification.html">Job Specification</a>
+      <a href="video.html">Videos</a>
+    </div>
+  </li>
+</ul></div>
+    <div class="main-section">
+      <div class="content">
+  <div class="myDiv">
+  <h2>Application
+          </h2><div class="container">
+            <p>Get in touch with us for any inquiries or feedback.</p><div class="container">
+  <form action="/action_page.php" enctype="multipart/form-data">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input name="firstname" type="text" required="required" id="fname" placeholder="Your name.." maxlength="30">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input name="lastname" type="text" required="required" id="lname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select name="country" required="required" id="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+		<option value="uk">UK</option>
+          <option value="bangladesh">Bangladesh</option>
+          <option value="italy">Italy</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">Personal Statement</div>
+      <div class="col-75">
+        <textarea name="subject" required="required" id="subject" style="height:200px" placeholder="Write something.."></textarea>
+      </div>
+    </div>
+	 <div class="row">
+      <div class="col-25">
+        <label for="fname">Upload CV</label>
+      </div>
+      <div class="col-75">
+        <label for="fileField">File:</label>
+        <input type="file" name="fileField" id="fileField">
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+  </div>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  </div>
+    </div>
+    </div>
+    <div class="footer">
+        <a href="https://en-gb.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+<a href="https://twitter.com/?lang=en" class="fa fa-twitter" target="_blank"></a>
+<a href="https://uk.linkedin.com/" class="fa fa-linkedin" target="_blank"></a>
+<a href="https://www.youtube.com/" class="fa fa-youtube" target="_blank"></a>
+<a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
+<a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost" target="_blank"></a>
+<a href="https://www.skype.com/en/" class="fa fa-skype" target="_blank"></a>
+<a href="https://www.android.com/intl/en_uk/" class="fa fa-android" target="_blank"></a>
+<a href="https://foursquare.com/" class="fa fa-foursquare" target="_blank"></a>
+<a href="https://rss.com/" class="fa fa-rss" target="_blank"></a>
+    </div>
+  </div>
+</body>
+</html>
